@@ -47,15 +47,15 @@ A feature that allows the player to enter camera mode freely.
 - `Freeview.exitView(player)` - Used to exit Freeview mode.
 
 ### Key Binds
-**Arrow Up/W** - Move to front
-**Arrow Down/S** - Move to back
-**Arrow Left/A** - Move to left
-**Arrow Right/D** - Move to right
-**PageUp** - Move to Up
-**PageDown** - Move to Down
-**Home** - Change HUD mode
-**Insert** - Increase Speed
-**Delete** - Decrease Speed
+- **Arrow Up/W** - Move to front
+- **Arrow Down/S** - Move to back
+- **Arrow Left/A** - Move to left
+- **Arrow Right/D** - Move to right
+- **PageUp** - Move to Up
+- **PageDown** - Move to Down
+- **Home** - Change HUD mode
+- **Insert** - Increase Speed
+- **Delete** - Decrease Speed
 
 ### Demonstration
 https://www.youtube.com/watch?v=--Hk-ey752w
