@@ -95,8 +95,6 @@ Freeview <- {
 			this.Y = 0;
 			this.Z = 0;
 			
-			this.isOnView = false,
-	
 			this.isMovingUp = false;
 			this.isMovingDown = false;
 			this.isMovingFront = false;
