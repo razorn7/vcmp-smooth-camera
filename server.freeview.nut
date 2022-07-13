@@ -1,8 +1,8 @@
-/* -------------------------------------------
+/* -----------------------------------------------
 	Freeview Camera Resource (Server-Side)	
 	Version: v1.0
 	Author: Razor#7311
-------------------------------------------- */
+------------------------------------------------ */
 
 class freeviewClass {
 	isOnView = false;
@@ -14,7 +14,7 @@ class freeviewClass {
 Freeview <- {
 	players = array(GetMaxPlayers(), null),
 	
-    StreamType = 0x07,
+    	StreamType = 0x07,
 	
 	enterView = function(player) {
 		if (this.players[player.ID].isOnView == false) {
