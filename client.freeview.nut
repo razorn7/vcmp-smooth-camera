@@ -1,8 +1,8 @@
-/* -------------------------------------------
+/* -----------------------------------------------
 	Freeview Camera Resource (Client-Side)	
 	Version: v1.0
 	Author: Razor#7311
-------------------------------------------- */
+------------------------------------------------ */
 
 function GetFrontPos(pos, angle, gap) return Vector(pos.X - gap * sin(angle), pos.Y + gap * cos(angle), pos.Z);
 function GetSidePos(pos, angle, gap) return Vector(cos(angle) * gap + pos.X, sin(angle) * gap + pos.Y, pos.Z);
@@ -109,7 +109,7 @@ Freeview <- {
 	onScriptProcess = function() {
 		if (this.isOnView == true) {
 			/* --------------------------------------------------------------------- */
-			// - Credits to @vitor for this calculation
+			// - Credits to @vito for this calculation
 			local angle,
 			an = GUI.ScreenPosToWorld(Vector((this.sW * 0.5), (this.sH * 0.5), 1)), 
 			bn = GUI.ScreenPosToWorld(Vector((this.sW * 0.5), (this.sH * 0.5), -1)),
