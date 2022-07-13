@@ -2,7 +2,7 @@
 A feature that allows the player to enter camera mode freely.
 
 ### Setup
-1. Clone the [repository]https://github.com/Razorn7/Smooth-Freeview-Camera-for-VCMP/)
+1. Clone the [repository](https://github.com/Razorn7/Smooth-Freeview-Camera-for-VCMP/)
 2. After you have cloned the repository, click you will see two files, copy `server.freeview.nut` to your server's `/scripts` folder, then there will be the `client.freeview.nut` file, you should copy it to the `store/script` folder on your server.
 3. Then have your server load both files, server and client side.
 4. (Server-Side) Add the hooks to the `onPlayerJoin` and `onPlayerPart` events to be like that:
