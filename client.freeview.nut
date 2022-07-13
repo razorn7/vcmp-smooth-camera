@@ -163,7 +163,7 @@ Freeview <- {
 			player.Position.Y = this.Y;
 			player.Position.Z = this.Z;
 			
-			this.hudType != 2 ? this.labelInfo.Text = "[#a3a3a3]Speed: [#88b8de]x[#ffffff]" + format("%1.1f", this.Speed) + "[#88b8de] | [#a3a3a3]Position: [#ffffff]Vector([#88b8de]" + this.X + ", " + this.Y + ", " + this.Z + "[#ffffff])[#88b8de] | [#a3a3a3]Angle: [#ffffff]" + this.Angle : this.labelInfo.Text = "";
+			this.hudType != 2 ? this.labelInfo.Text = "[#a3a3a3]Speed: [#ffffff]" + format("%1.1f", this.Speed) + "x[#88b8de] | [#a3a3a3]Position: [#ffffff]Vector([#88b8de]" + this.X + ", " + this.Y + ", " + this.Z + "[#ffffff])[#88b8de] | [#a3a3a3]Angle: [#ffffff]" + this.Angle : this.labelInfo.Text = "";
 		}
 	}
 	
