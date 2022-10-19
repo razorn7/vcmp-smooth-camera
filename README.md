@@ -20,8 +20,8 @@ A feature that allows the player to enter camera mode freely.
 5. (Client-Side) Now, add the hooks to the `Script::ScriptProcess`, `Server::ServerData`, `KeyBind::OnDown` and `KeyBind::OnUp` events to be like that:
 
 - ```squirrel
-  function onPlayerJoin(player) {
-	  Freeview.players[player.ID] = freeviewClass();
+  function Script::ScriptProcess() {
+	  Freeview.onScriptProcess();
   }
   
 - ```squirrel
@@ -51,6 +51,7 @@ A feature that allows the player to enter camera mode freely.
 - **Arrow Down/S** - Move to back
 - **Arrow Left/A** - Move to left
 - **Arrow Right/D** - Move to right
+- **Shift** - Increase Speed
 - **PageUp** - Move to Up
 - **PageDown** - Move to Down
 - **Home** - Change HUD mode
